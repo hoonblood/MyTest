@@ -1,0 +1,12 @@
+platform :ios,'7.0'
+
+
+target'FixBadExe'do
+
+pod "AFNetworking"
+pod "Masonry"
+pod "SDWebImage"
+pod "pop"
+
+
+end
