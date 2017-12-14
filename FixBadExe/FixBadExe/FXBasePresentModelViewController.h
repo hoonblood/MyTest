@@ -10,7 +10,7 @@
 
 @interface FXBasePresentModelViewController : UIViewController
 @property (nonatomic,readonly)UIView *contentView;///<白色的圆角面板UI，可重置其Size，center等属性
-@property (nonatomic)BOOL shouldDismissOnTapBackground;//点击背景透明区域是否需要dismiss
+@property (nonatomic)BOOL shouldDismissOnTapBackground;///<点击背景透明区域是否需要dismiss
 /**
  从fromVC present显示
 
